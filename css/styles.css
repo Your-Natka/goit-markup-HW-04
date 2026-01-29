@@ -151,7 +151,15 @@ a {
 .page-hero {
   max-width: 1440px;
   background-color: var(--navyblue);
+}
+
+.hero {
   padding: 188px 0;
+  margin: 0 auto;
+  background-image: url("../images/img-name.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .hero-container {
@@ -159,13 +167,6 @@ a {
   align-items: center;
   flex-direction: column;
   gap: 48px;
-}
-
-.hero {
-  background-image: url("../images/img-name.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 .hero-title {
