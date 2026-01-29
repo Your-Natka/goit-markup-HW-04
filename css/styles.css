@@ -313,7 +313,6 @@ a {
 .team-box {
   text-align: center;
   padding: 32px 0;
-  gap: 8px;
 }
 
 .team-description {
@@ -330,6 +329,7 @@ a {
   font-weight: 400;
   letter-spacing: 0.02em;
   color: var(--slate);
+  margin-bottom: 8px;
 }
 
 .icon-links {
