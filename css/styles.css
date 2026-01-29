@@ -403,11 +403,11 @@ a {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: var(--light-lavender);
+  color: var(--cloud);
 }
 
 .logo-color {
-  color: var(--light-lavender);
+  color: var(--cloud);
 }
 
 .footer-logo {
