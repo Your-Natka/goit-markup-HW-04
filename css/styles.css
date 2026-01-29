@@ -5,6 +5,12 @@
   --white: #fff;
   --ocean: #404bbf;
   --cloud: #f4f4fd;
+  --green: #31d0aa;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --navy-blue-modal: #555659;
+  --grey: #2e2f42;
+  --dairy: #fcfcfc;
 }
 
 body {
@@ -156,7 +162,7 @@ a {
 .hero {
   padding: 188px 0;
   margin: 0 auto;
-  background-image: linear-gradient(var(--navyblue), 
+  background-image: linear-gradient(#2e2f42b3, 
   rgba(46, 47, 66, 0.7)), url(../images/img-name.jpg);
   background-size: cover;
   background-position: center;
@@ -246,7 +252,7 @@ a {
   height: 112px;
   border-radius: 4px;
   margin-bottom: 8px;
-  background: var(--cloud, #F4F4FD);
+  background: var(--cloud);
 }
 
 .features-title {
@@ -278,7 +284,7 @@ a {
 
 /* TEAM */
 .page-team {
-  background-color: var(--light-lavender);
+  background-color: var(--cloud);
   padding: 120px 0;
 }
 
@@ -461,11 +467,14 @@ a {
   background-color: var(--navyblue);
 }
 
-.footer-box {
+.footer-container {
   display: flex;
   align-items: baseline;
 }
 
+.footer-box {
+  margin-right: 120px;
+}
 .footer-title {
   font-size: 18px;
   line-height: 1.17;
@@ -491,7 +500,7 @@ a {
 }
 
 .footer-paragraph.media {
-  color: var(--white, #FFF);
+  color: var(--white);
   font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
@@ -512,12 +521,12 @@ a {
   list-style: none;
 }
 .icon-footer {
-  fill: var(--cloud, #f4f4fd);
+  fill: var(--cloud);
 }
 .icon-social {
   width: 100%;
   height: 100%;
-  background-color: var(--iris, #4D5AE5);
+  background-color: var(--iris);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -526,11 +535,11 @@ a {
 }
 
 .icon-social:hover {
-  background-color: #31d0aa;
+  background-color: var(--green);
 }
 
 .icon-social:focus {
-  background-color: #31d0aa;
+  background-color: var(--green);
 }
 
 .footer-social-one {
